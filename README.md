@@ -30,7 +30,7 @@ https://huggingface.co/datasets/kunishou/do-not-answer-ja
 - **get_evalueation_summary.ipynb**  
 xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード
 ## 評価結果
-- GPT4にて評価した結果を以下の通りです。
+- GPT4にて評価した結果は以下の通りです。
 - Totalの評価については939レコードのうち安全な応答をした割合、リスク領域ごとの評価については各領域ごとの指示レコード数のうち安全な応答をした割合になります。
 - 参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。  
   
