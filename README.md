@@ -12,12 +12,15 @@
 <img src="image/risk_area.png" alt="risk_area" width="500" height="563">
   
 詳細は以下の論文を参考にして下さい。
-    
-  [Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs](https://arxiv.org/abs/2308.13387)
-## 日本語LLM向け安全性評価データセット『Do-Not-Answer-Ja』について
-メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容の修正を手動で実施し、作成しました。
-### HuggingFace
 
+arxiv  
+[Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs](https://arxiv.org/abs/2308.13387)  
+github  
+https://github.com/Libr-AI/do-not-answer
+## 日本語LLM向け安全性評価データセット『Do-Not-Answer-Ja』について
+メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容への修正を手動で実施し、作成しました。
+### HuggingFace
+https://huggingface.co/datasets/kunishou/do-not-answer-ja
 ## 各種コードの説明
 **現在、コード整理中のため後日アップロードします**
 - **get_response_xxxx.ipynb**  
