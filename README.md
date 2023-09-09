@@ -21,7 +21,7 @@ https://github.com/Libr-AI/do-not-answer
 メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容への修正を手動で実施し、作成しました。
 ### HuggingFace
 https://huggingface.co/datasets/kunishou/do-not-answer-ja
-## 各種コードの説明
+## 各種コードについて
 **現在、コード整理中のため後日アップロードします**
 - **get_response_xxxx.ipynb**  
 各LLMのresponse収集に使用したコード
