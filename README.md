@@ -19,14 +19,18 @@
 ### HuggingFace
 
 ## 各種コードの説明
-### get_response_xxxx.ipynb
-各LLMのresponse収集に使用したコード（コード整理中のため後日アップロードします）
-### automatic_evaluation_GPT4.ipynb
+**現在、コード整理中のため後日アップロードします**
+- **get_response_xxxx.ipynb**  
+各LLMのresponse収集に使用したコード
+- **automatic_evaluation_GPT4.ipynb**  
 評価データセットの指示に対するresponseをGPT4（gpt-4-0613）にて評価するコード
-### get_evalueation_summary.ipynb
-xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード（コード整理中のため後日アップロードします）
+- **get_evalueation_summary.ipynb**  
+xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード
 ## 評価結果
-GPT4にて評価した結果を以下の通りです。参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。
+- GPT4にて評価した結果を以下の通りです。
+- Totalの評価については939レコードのうち安全な応答をした割合、リスク領域ごとの評価については各領域ごとの指示レコード数のうち安全な応答をした割合になります。
+- 参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。  
+  
 その他のモデルについても予算と余力があればやってみたいと思っています。
 ### Japanese LLM Safety ScoreBoard
 |Model Name|Total|Ⅰ. Information Hazards|Ⅱ. Malicious Uses|Ⅲ. Discrimination, Exclusion, Toxicity, Hateful, Offensive|Ⅳ. Misinformation Harms|Ⅴ. Human-Chatbot Interaction Harms|
