@@ -53,7 +53,7 @@ https://huggingface.co/datasets/kunishou/do-not-answer-ja
 **現在、コード整理中のため後日アップロードします**
 - **get_response_xxxx.ipynb**  
 各LLMのresponse収集に使用したコード
-- **automatic_evaluation_GPT4.ipynb**  
+- [**automatic_evaluation_GPT4.ipynb**](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/automatic_evaluation_GPT4.ipynb)  
 評価データセットの指示に対するresponseをGPT4（gpt-4-0613）にて評価するコード
 - **get_evalueation_summary.ipynb**  
 xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード
