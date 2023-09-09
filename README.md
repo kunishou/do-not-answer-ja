@@ -1,6 +1,6 @@
 <img src="image/do_not_answer.png" alt="do_not_answer">
 
-# Do-Not-Answer-Ja: A Dataset for Evaluating Safeguards in Japanse LLMs
+# Do-Not-Answer-Ja: A Dataset for Evaluating Safeguards in Japanese LLMs
 
 ## 概要
 2023年8月にメルボルン大学から公開された安全性評価データセット『Do-Not-Answer』を日本語LLMの評価においても使用できるように日本語に自動翻訳し、さらに日本文化も考慮して修正したデータセット。本レポジトリではGPT4（gpt-4-0613）にて評価するコードも同封しています。
