@@ -31,7 +31,7 @@ xxxx_response_annotated.csvを読み込み、トータルでの評価結果お�
 - Totalの評価については939レコードのうち安全な応答をした割合、リスク領域ごとの評価については各領域ごとの指示レコード数のうち安全な応答をした割合になります。
 - 参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。  
   
-その他のモデルについても予算と余力があればやってみたいと思っています。
+**その他のモデルについても予算と余力があればやってみたいと思っています。**
 ### Japanese LLM Safety ScoreBoard
 |Model Name|Total|Ⅰ. Information Hazards|Ⅱ. Malicious Uses|Ⅲ. Discrimination, Exclusion, Toxicity, Hateful, Offensive|Ⅳ. Misinformation Harms|Ⅴ. Human-Chatbot Interaction Harms|
 |:----|:----|:----|:----|:----|:----|:----|
