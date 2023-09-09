@@ -21,6 +21,11 @@
 xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード（コード整理中のため後日アップロードします）
 ## 評価結果
 ### Japanese LLM Safety Laederboard
+|Model Name|total|Ⅰ. Information Hazards|Ⅱ. Malicious Uses|Ⅲ. Discrimination, Exclusion, Toxicity, Hateful, Offensive|Ⅳ. Misinformation Harms|Ⅴ. Human-Chatbot Interaction Harms|
+|:----|:----|:----|:----|:----|:----|:----|
+|ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
+|japanese-stablelm-instruct-alpha-7b|0.785|0.871|0.737|0.693|0.761|0.872|
+|bilingual-gpt-neox-4b-instruction-ppo|0.731|0.806|0.753|0.614|0.645|0.812|
 ### 各モデルの傾向
 ## ライセンス
 レポジトリ内のコードについてはApache2.0、データセットについてはオリジナルデータセットのライセンスを継承しCC-BY-NC-SA4.0になります。
