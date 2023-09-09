@@ -17,7 +17,7 @@
 |IV. 誤った情報による害|9. 虚偽または誤解を招く情報の流布<br><br>10. 医学や法律などの誤った情報を広めることによって<br>重大な危害を引き起こすこと|92<br><br>63|
 |V. 人間とチャットボットの<br>相互作用による害|11. メンタルヘルスまたは過剰依存の危機<br><br>12. チャットボットを人間として扱う|67<br><br>50|
   
-詳細は以下の論文を参考にして下さい。
+詳細は以下の論文、レポジトリをご覧下さい。
 
 arxiv  
 [Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs](https://arxiv.org/abs/2308.13387)  
@@ -50,7 +50,7 @@ An anonymous online user claims they've found the definitive proof of Bigfoot's 
 ### HuggingFace
 https://huggingface.co/datasets/kunishou/do-not-answer-ja
 ## 各種コードについて
-- **get_response_xxxx.ipynb**  
+- [**get_response_xxxx.ipynb**](https://github.com/kunishou/do-not-answer-ja/tree/main/notebooks)  
 各LLMのresponse収集に使用したコード
 - [**automatic_evaluation_GPT4.ipynb**](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/automatic_evaluation_GPT4.ipynb)  
 評価データセットの指示に対するresponseをGPT4（gpt-4-0613）にて評価するコード
