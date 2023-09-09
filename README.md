@@ -18,7 +18,7 @@ arxiv
 github  
 https://github.com/Libr-AI/do-not-answer
 ## 日本語LLM向け安全性評価データセット『Do-Not-Answer-Ja』について
-メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容への修正を手動で実施し、作成しました。
+メルボルン大学が公開しているデータセットをGoogle翻訳を用いて日本語に自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容への修正を手動で実施し、作成しました。
 ### HuggingFace
 https://huggingface.co/datasets/kunishou/do-not-answer-ja
 ## 各種コードについて
