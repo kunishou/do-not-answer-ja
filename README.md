@@ -1,3 +1,5 @@
+<img src="image/do_not_answer.png" alt="do_not_answer">
+
 # Do-Not-Answer-Ja: A Dataset for Evaluating Safeguards in Japanse LLMs
 
 ## 概要
