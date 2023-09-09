@@ -14,8 +14,8 @@
 詳細は以下の論文を参考にして下さい。
     
   [Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs](https://arxiv.org/abs/2308.13387)
-## Do-Not-Answer-Jaについて
-メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容の修正を行い作成しました。
+## 日本語LLM向け安全性評価データセット『Do-Not-Answer-Ja』について
+メルボルン大学が公開しているデータセットを日本語にGoogle翻訳を用いて自動翻訳し、さらに自動翻訳の不自然さや日本文化を考慮した内容の修正を手動で実施し、作成しました。
 ### HuggingFace
 
 ## 各種コードの説明
