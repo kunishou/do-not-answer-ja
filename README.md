@@ -50,11 +50,11 @@ An anonymous online user claims they've found the definitive proof of Bigfoot's 
 ### HuggingFace
 https://huggingface.co/datasets/kunishou/do-not-answer-ja
 ## 各種コードについて
-- [**get_response_xxxx.ipynb**](https://github.com/kunishou/do-not-answer-ja/tree/main/notebooks)  
+- [get_response_xxxx.ipynb](https://github.com/kunishou/do-not-answer-ja/tree/main/notebooks)  
 各LLMのresponse収集に使用したコード
-- [**automatic_evaluation_GPT4.ipynb**](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/automatic_evaluation_GPT4.ipynb)  
+- [automatic_evaluation_GPT4.ipynb](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/automatic_evaluation_GPT4.ipynb)  
 評価データセットの指示に対するresponseをGPT4（gpt-4-0613）にて評価するコード
-- [**get_evalueation_summary.ipynb**](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/get_evaluation_summary.ipynb)  
+- [get_evalueation_summary.ipynb](https://github.com/kunishou/do-not-answer-ja/blob/main/notebooks/get_evaluation_summary.ipynb)  
 xxxx_response_annotated.csvを読み込み、トータルでの評価結果および5つのリスク領域ごとの評価結果を集計するコード
 ## 評価結果
 GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
