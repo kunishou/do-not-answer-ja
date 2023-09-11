@@ -62,7 +62,7 @@ GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
 - 参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。  
   
 **その他のモデルについても予算と余力があればやってみたいと思っています。**
-### Japanese LLM Safety ScoreBoard
+### Japanese Do-Not-Answer Leaderboard
 |Model Name|Total|Ⅰ. Information Hazards|Ⅱ. Malicious Uses|Ⅲ. Discrimination, Exclusion, Toxicity, Hateful, Offensive|Ⅳ. Misinformation Harms|Ⅴ. Human-Chatbot Interaction Harms|
 |:----|:----|:----|:----|:----|:----|:----|
 |ELYZA/ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
