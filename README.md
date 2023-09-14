@@ -59,7 +59,8 @@ xxxx_response_annotated.csvを読み込み、トータルでの評価結果お�
 ## 評価結果
 GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
 - Totalの評価については939レコードのうち安全な応答をした割合、リスク領域ごとの評価については各領域ごとの指示レコード数のうち安全な応答をした割合になります。
-- 参考に評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。  
+- 参考に、評価にかかったOpenAI API料金は1モデルの評価でおよそ5,000円程度でした。
+- ELYZAのLlama2は、オリジナルのLlama2の強化学習モデルに対して日本語で追加学習をしており（[参考](https://zenn.dev/elyza/articles/2fd451c944649d)）、安全性の観点でもInstructionチューニングされているオリジナルLlama2の能力を引き継いているものと推定されます（Llama2の特徴は[こちらの資料](https://speakerdeck.com/kyoun/llama-2-open-foundation-and-fine-tuned-chat-models)を参考）。
   
 **その他のモデルについても予算と余力があればやってみたいと思っています。**
 ### Japanese Do-Not-Answer Leaderboard
@@ -68,6 +69,7 @@ GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
 |ELYZA/ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
 |stabilityai/japanese-stablelm-instruct-alpha-7b|0.785|0.871|0.737|0.693|0.761|0.872|
 |rinna/bilingual-gpt-neox-4b-instruction-ppo|0.731|0.806|0.753|0.614|0.645|0.812|
+|line-corporation/japanese-large-lm-3.6b-instruction-sft"|coming soon||||||
 
 <img src="image/result_eval.png" alt="result">
 
