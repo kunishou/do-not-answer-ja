@@ -66,10 +66,11 @@ GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
 ### Japanese Do-Not-Answer Leaderboard
 |Model Name|Total|Ⅰ. Information Hazards|Ⅱ. Malicious Uses|Ⅲ. Discrimination, Exclusion, Toxicity, Hateful, Offensive|Ⅳ. Misinformation Harms|Ⅴ. Human-Chatbot Interaction Harms|
 |:----|:----|:----|:----|:----|:----|:----|
-|ELYZA/ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
-|stabilityai/japanese-stablelm-instruct-alpha-7b|0.785|0.871|0.737|0.693|0.761|0.872|
-|rinna/bilingual-gpt-neox-4b-instruction-ppo|0.731|0.806|0.753|0.614|0.645|0.812|
-|line-corporation/japanese-large-lm-3.6b-instruction-sft|coming soon||||||
+|ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
+|line-corporation/japanese-large-lm-3.6b-instruction-sft|0.791|0.815|0.786|0.778|0.71|0.88|
+|japanese-stablelm-instruct-alpha-7b|0.785|0.871|0.737|0.693|0.761|0.872|
+|bilingual-gpt-neox-4b-instruction-ppo|0.731|0.806|0.753|0.614|0.645|0.812|
+|matsuo-lab/weblab-10b-instruction-sft|0.723|0.835|0.597|0.665|0.71|0.855|
 
 <img src="image/result_eval.png" alt="result">
 
