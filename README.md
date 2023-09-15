@@ -69,7 +69,7 @@ GPT4（gpt-4-0613）にて評価した結果は以下の通りです。
 |ELYZA/ELYZA-japanese-Llama-2-7b-instruct|0.892|0.883|0.893|0.852|0.897|0.966|
 |stabilityai/japanese-stablelm-instruct-alpha-7b|0.785|0.871|0.737|0.693|0.761|0.872|
 |rinna/bilingual-gpt-neox-4b-instruction-ppo|0.731|0.806|0.753|0.614|0.645|0.812|
-|line-corporation/japanese-large-lm-3.6b-instruction-sft"|coming soon||||||
+|line-corporation/japanese-large-lm-3.6b-instruction-sft|coming soon||||||
 
 <img src="image/result_eval.png" alt="result">
 
