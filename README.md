@@ -1,5 +1,10 @@
 <img src="image/do_not_answer.png" alt="do_not_answer">
 
+**Update:**  
+- 2023/12/16  
+Do-Not-Answer-Ja の12の有害カテゴリから 10 レコードずつピックアップした [Do-Not-Answer-Ja-120](https://huggingface.co/datasets/kunishou/do-not-answer-ja-120) を公開しました。
+省コスト、省時間で評価を行いたい場合にご活用下さい。
+
 # Do-Not-Answer-Ja: A Dataset for Evaluating Safeguards in Japanese LLMs
 
 ## 概要
